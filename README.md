@@ -1,30 +1,42 @@
-# calculator
+# vCalc
+Vue 3 calculator App
 
-## Project setup
-```
+## What's Changed
+Almost Everything:
+1. Packager Tool (from Vue CLI to Vitejs)
+2. New UI
+3. New Calculation Methods
+4. and More...
+
+## Project Setup
+
+```sh
 npm install
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
+### Compile and Hot-Reload for Development
+
+```sh
+npm run dev
 ```
 
-### Compiles and minifies for production
-```
+### Compile and Minify for Production
+
+```sh
 npm run build
 ```
 
-### Run your tests
-```
-npm run test
-```
+### Lint with [ESLint](https://eslint.org/)
 
-### Lints and fixes files
-```
+```sh
 npm run lint
 ```
+### Format with [Prettier](https://prettier.io/)
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-# vue-calculator-app
+```sh
+npm run format
+```
+### Lint, Format and Serve
+```sh
+npm start
+```

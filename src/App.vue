@@ -1,49 +1,38 @@
 <template>
   <div id="app">
-    <calcultor />
-    <a href="https://github.com/itxshakil/vue-calculator-app">View Code</a>
-    <a class="float-btn" href="mailto:itxshakil@gmail.com?Subject=An%20issue%20found%20in%20Vue%Calculator%20App">Report an Issue</a>
+    <CalcView />
+    <a
+      href="https://github.com/MFM-347/vCalc"
+      class="github-fork-ribbon fixed"
+      data-ribbon="Fork me on GitHub"
+      title="Fork me on GitHub"
+      >Fork me on GitHub</a
+    >
   </div>
 </template>
 
-<script>
-import Calculator from './components/Calculator.vue'
-
-export default {
-  name: 'app',
-  components: {
-    Calculator
-  }
-}
+<script setup>
+import CalcView from './components/CalcView.vue'
 </script>
 
 <style>
-*{
-  box-sizing:border-box;
+@import url('https://unpkg.com/github-fork-ribbon-css@0.2.3/gh-fork-ribbon.css');
+body {
+  background: linear-gradient(90deg, #7f7fd5 0%, #91eae4 100%);
+  color: #212529;
+  height: 100vh;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  place-items: center;
 }
-body{
-  background:#099;
-  position:relative;
-}
-a{
-  display:inline-block;
-  margin-top:10px;
-  text-decoration:none;
-  color:#ddd;
-}
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+</style>
+<style scoped>
+* {
   box-sizing: border-box;
 }
-.float-btn{
-  padding:.4rem;
-  position:fixed;
-  right:0;
-  bottom:0;
+.github-fork-ribbon:before {
+  background-color: #1c1b22;
 }
 </style>
