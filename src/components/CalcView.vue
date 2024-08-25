@@ -153,7 +153,7 @@ body {
 .calculator {
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
-  background-color: rgba(221, 221, 221, 0.5);
+  background-color: rgba(231, 229, 228, 0.5);
   color: #212529;
   width: calc(var(--button-width) * 4 + var(--font) * 2);
   height: calc(var(--button-height) * 6 + var(--font) * 2);
@@ -171,8 +171,8 @@ body {
 .calculator button {
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
-  background-color: #f8f9fa;
-  background: linear-gradient(135deg, #eee7 0%, #f8f9fa77 100%);
+  background-color: #f3f4f6;
+  background: linear-gradient(135deg, #eee7 0%, #f3f4f699 100%);
   color: #212529;
   font-family: Arial, sans-serif;
   font-size: var(--font);
@@ -187,7 +187,17 @@ body {
     4px 4px 10px -8px rgba(23, 23, 31, 0.3);
 }
 
+.calculator button:hover {
+  background-color: #6b7280;
+  background: linear-gradient(135deg, #eee7 0%, #6b728099 100%);
+  box-shadow:
+    -4px -4px 10px -8px rgba(240, 240, 246) inset,
+    4px 4px 10px -8px rgba(23, 23, 31, 0.3) inset;
+}
+
 .calculator button:active {
+  background-color: #4b5563;
+  background: linear-gradient(135deg, #eee7 0%, #4b556399 100%);
   box-shadow:
     -4px -4px 10px -8px rgba(240, 240, 246) inset,
     4px 4px 10px -8px rgba(23, 23, 31, 0.3) inset;

@@ -1,8 +1,27 @@
 {
   "name": "vcalc",
-  "version": "0.0.0",
+  "version": "0.9.0",
   "private": true,
   "type": "module",
+  "description": "Customizable Vuejs Calculator for quick calculations. vCalc has an advanced UI using only CSS3.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MFM-347/vCalc.git"
+  },
+  "keywords": [
+    "vuejs",
+    "vite-vue",
+    "vue-3",
+    "css3",
+    "calculator",
+    "mfm3478"
+  ],
+  "author": "MFM-347",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MFM-347/vCalc/issues"
+  },
+  "homepage": "https://github.com/MFM-347/vCalc#readme",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
